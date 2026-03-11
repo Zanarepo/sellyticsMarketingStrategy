@@ -11,7 +11,7 @@ import Home from "./Pages/Home";
 //import Bookings from "./pages/Bookings";
 
 
-import Content from "./Pages/content";
+import Content from "./Pages/Content";
 import InsightReport from "./Pages/InsightReport";
 import ContentPillar from "./Pages/ContentPillar";
 import ContentCalender from './Pages/ContentCalender'
