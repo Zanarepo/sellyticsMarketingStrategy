@@ -7,10 +7,10 @@ import AuthLayout from "./layouts/AuthLayout";
 
 // Pages
 import Home from "./Pages/Home";
-import ParkingSpaces from "./Pages/ParkingSpaces";
-import Bookings from "./pages/Bookings";
-import Login from "./Pages/Login";
-import Register from "./pages/Register";
+
+//import Bookings from "./pages/Bookings";
+
+
 import Content from "./Pages/content";
 import InsightReport from "./Pages/InsightReport";
 import ContentPillar from "./Pages/ContentPillar";
@@ -28,8 +28,8 @@ const App = () => {
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
-          <Route path="/spaces" element={<ParkingSpaces />} />
-          <Route path="/bookings" element={<Bookings />} />
+        
+      
           <Route path="/content" element={<Content />} />
           <Route path="/insights" element={<InsightReport />} />
           <Route path="/pillar" element={<ContentPillar />} />
@@ -47,8 +47,7 @@ const App = () => {
       {/* Layout for authentication pages */}
       <Routes>
         <Route element={<AuthLayout />}>
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
+         
         </Route>
       </Routes>
     </Router>
